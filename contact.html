@@ -5,11 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Merch Market Hub</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-card {
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      max-width: 600px;
+      margin: 2rem auto;
+      text-align: left;
+    }
+
+    .contact-card h3 {
+      margin-top: 0;
+    }
+
+    .contact-card p {
+      margin-bottom: 1rem;
+    }
+
+    .contact-options {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Contact Us</h1>
-    <p>We’d love to hear from you</p>
+    <p>Quick questions? Partnership inquiries? We're here to help.</p>
   </header>
 
   <nav>
@@ -22,14 +47,28 @@
   </nav>
 
   <section class="hero">
-    <h2>Reach Out Anytime</h2>
-    <p>For partnerships, questions, or media inquiries, contact us directly:</p>
-    <p><strong>Email:</strong> <a href="mailto:info@merchmarkethub.com">info@merchmarkethub.com</a></p>
-    <p><strong>Location:</strong> Based in the U.S. — working with brands globally</p>
+    <h2>Let’s Connect</h2>
+    <p>We usually respond within 1 business day.</p>
+  </section>
+
+  <section class="contact-card">
+    <div class="contact-options">
+      <div>
+        <h3>Email Us</h3>
+        <p><a href="mailto:info@merchmarkethub.com">info@merchmarkethub.com</a></p>
+        <p>Send your product info, goals, or questions. We'll get back with a custom response.</p>
+      </div>
+
+      <div>
+        <h3>Book a Call</h3>
+        <p>Want to jump right in? Book a strategy call with our team.</p>
+        <iframe src="https://calendly.com/your-calendly-link" width="100%" height="600" frameborder="0" style="border-radius: 8px;"></iframe>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p>Merch Market Hub LLC • info@merchmarkethub.com</p>
+    <p>Merch Market Hub LLC • <a href="mailto:info@merchmarkethub.com">info@merchmarkethub.com</a></p>
   </footer>
 </body>
 </html>
